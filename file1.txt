@@ -1,13 +1,15 @@
 def main(a,b):
 	"""This is the function written to understand the basic operation of git and version cootrols"""
 	
-	"""Right now I am in master branch and in which basic 4 math operations are done."""
+	"""Right now I am in mybranch and in which extr1 2 math operations are added."""
 	
 	c= a + b
 	d= a * b
 	e= a - b
-	f= a//2
+	f= a//b
+	g= a/b
+	h= a**2
 
-	return c,d,e,f
+	return c,d,e,f,g,h
 
 main(2,3)
